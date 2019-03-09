@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+cat { file name } | ./nmax { amount numbers }
+
+    $ cat test_data/test_file.txt | ./nmax 4
 
 ## Development
 
