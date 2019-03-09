@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'number_max'
+require 'number_max/cli'
+
+NumberMax::CLI.start(ARGV.dup.unshift('nmax'))
