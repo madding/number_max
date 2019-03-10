@@ -28,7 +28,7 @@ module NumberMax
     end
 
     def result
-      @result[0...@result_number_amount]
+      @result
     end
 
     private
